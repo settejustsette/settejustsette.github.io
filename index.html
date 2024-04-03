@@ -4,13 +4,16 @@
         <title>BE7</title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="hover.css">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     </head>
 
     <body>
         <div class="navbar">
             <div class="utente">
                 <ul>
-                    <li>ome</li>
+                    <li><div class="g-signin2" data-onsuccess="onSignIn">sign in</div>
+                    </li>
                     <li>saldo: 0$</li>
                 </ul>
             </div>
