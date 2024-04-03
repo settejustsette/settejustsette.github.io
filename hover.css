@@ -1,0 +1,77 @@
+
+.blackjackhover{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    background-image: url(cat/blackjack.png) ;
+    background-size: cover;
+    cursor: pointer;
+    transition: 500ms;
+    opacity: 0.7;
+}
+
+.blackjackhover:hover{
+    background-image: url(gif/blackjack.gif);
+    height: 250px;
+    width: 250px;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.roulettehover{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    background-image: url(cat/roulette.png) ;
+    background-size: cover;
+    cursor: pointer;
+    transition: 500ms;
+    opacity: 0.7;
+}
+
+.roulettehover:hover{
+    background-image: url(gif/roulette.gif);
+    height: 250px;
+    width: 250px;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.virtualhover{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    background-image: url(cat/virtual.png) ;
+    background-size: cover;
+    cursor: pointer;
+    transition: 500ms;
+    flex-basis: 0;
+    opacity: 0.7;
+}
+.virtualhover:hover{
+    background-image: url(gif/virtual.gif);
+    height: 250px;
+    width: 400px;
+    transition: 500ms;
+    opacity: 1;
+    
+}
+
+.slothover{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    background-image: url(cat/slot.png) ;
+    background-size: cover;
+    cursor: pointer;
+    transition: 500ms;
+    flex-basis: 0;
+    opacity: 0.7;
+}
+.slothover:hover{
+    background-image: url(gif/slot.gif);
+    height: 250px;
+    width: 450px;
+    transition: 500ms;
+    opacity: 1;
+}

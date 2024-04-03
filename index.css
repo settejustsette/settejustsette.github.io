@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body, html{
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-image: url(background7777.jpg);
+    background-size: cover;
+    color: antiquewhite;
+}
+img{
+    height: 150px;
+}
+
+iframe{
+    height: 170px;
+    margin: 40px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+   
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.titolo{
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+}
+.titolobig{
+    font-size: 97px;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+}
+
+.sottotitolo{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    margin: 0;
+}
+
+.logo{
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+}
+.categorie{
+    display: flex;
+    justify-content: space-around;
+    top: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.utente{
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+li {
+   margin: 10px;
+   text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+  }
+
+
+.giochi{
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    min-width: 0;
+    box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.70);
+}
+  .giochitesto{
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+
+}
+
+.slottext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.blackjacktext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.roulettetext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.virtualtext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}

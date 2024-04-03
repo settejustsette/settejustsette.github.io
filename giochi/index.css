@@ -1,0 +1,113 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body, html{
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-image: url(background7777.jpg);
+    background-size: cover;
+    color: antiquewhite;
+}
+img{
+    height: 100px;
+}
+
+iframe{
+    height: 170px;
+    margin: 40px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    border: solid rgb(255, 255, 255);
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.titolo{
+    text-align: center;
+    justify-content: center;
+}
+
+.categorie{
+    display: flex;
+    justify-content: space-around;
+    top: 25%;
+    height: 100%;
+    width: 100%;
+}
+
+.utente{
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+li {
+   margin: 10px;
+   text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+  }
+
+
+.giochi{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    min-width: 0;
+}
+  .giochitesto{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+}
+
+.slottext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.blackjacktext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.roulettetext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+.virtualtext{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
