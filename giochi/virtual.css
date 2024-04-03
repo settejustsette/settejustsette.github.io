@@ -1,4 +1,8 @@
 body,html{
-    background-image: url(virtualbg.png);
+    background: url(virtualbg.png);
     background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
